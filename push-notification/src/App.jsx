@@ -5,9 +5,7 @@ import logo from './images/logo.jpg';
 function App() {
 
   const handleNotify = () => {
-    console.log("clicked");
-
-    addNotification({
+      addNotification({
       title: "sGate Tech Solutions Pvt. Ltd.",
       message: "Notification Message",
       duration: 10000,
